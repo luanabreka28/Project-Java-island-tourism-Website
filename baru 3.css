@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Lobster+Two&family=Open+Sans:wght@500&family=Outfit:wght@300;500&family=Poppins:ital,wght@0,200;0,300;1,100&family=Rancho&family=Roboto:wght@100&family=Viga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Lobster+Two&family=Open+Sans:wght@500&family=Outfit:wght@300;500&family=Poppins:ital,wght@0,200;0,300;1,100&family=Rancho&family=Roboto:wght@100&family=Viga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Lobster+Two&family=Open+Sans:wght@500&family=Outfit:wght@300;500&family=Poppins:ital,wght@0,200;0,300;1,100&family=Rancho&family=Roboto:wght@100&family=Viga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Lobster+Two&family=Open+Sans:wght@500&family=Outfit:wght@300;500&family=Poppins:ital,wght@0,200;0,300;1,100&family=Rancho&family=Roboto:wght@100&family=Satisfy&family=Viga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Lobster+Two&family=Open+Sans:wght@500&family=Outfit:wght@300;500&family=Poppins:ital,wght@0,200;0,300;1,100&family=Rancho&family=Roboto:wght@100&family=Satisfy&family=Viga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Viga&display=swap');
+
+.logo{
+    font-family: 'Satisfy', cursive;
+    font-size: 2em;
+    margin-top: 15px;
+    color: #B7B9DF !important;
+}
+
+.jumbotron {
+    background-image: url('images/bg5.jpg');
+    background-size: cover;
+    height: 800px;
+}
+
+.display-4 {
+    color: #B7B9DF;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 19vw;
+    line-height: 0.55em;
+    transform: translateY(70%);
+    font-family: 'Rancho', cursive;
+}
+
+span {
+    font-size: 0.25em;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+
+.top {
+    width: 205px;
+    height: 280px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.display-4 {
+    transform: translateY(70%);
+}
+
+.destinasi {
+    margin-left: 50px;
+}
+
+section {
+    padding-top: 6rem;
+}
+
+h1 {
+    font-family: 'Outfit', sans-serif;
+    font-size: 4vw;
+}
+
+#gambar{
+    width: 170px; 
+    height: 220px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.card-img-top {
+    height: 200px;
+}
+
+.checked {
+    color: orange;
+  }
+
+  .ig {
+    margin: 9px;
+    width: 30px;
+    height: 30px;
+}
+
+#dialog {
+    width: 90px;
+}
+
+footer {
+    height: 300px;
+    background-color: #9ec5f8;
+}
+
+.popup{
+    display: none;
+  }
+  .bg{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(221, 221, 221, 0.486);
+  }
+  .content{
+    position: relative;
+    top: 225px;
+    width: 600px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 10px 20px;
+  }
+  
+  .close{
+    display: inline-block;
+    padding: 7px 15px;
+    cursor: pointer;
+    background: #E74C3C;
+    color: #fff;
+  }
+  .close:hover,.close:visited{
+    background: #C0392B;
+  }
+
+#fas {
+    text-align: center;
+    font-size: 30px;
+}
+
+/*Ver Desktop*/
+@media (min-width: 992px) { 
+    .nav-link{
+        margin-right: 35px;
+        border-radius: 20px;
+        font-family: 'Poppins', sans-serif;
+        margin-top: 15px;
+        color: #B7B9DF !important;
+    }
+
+    .nav-link:hover, a.active {
+        background: #9ec5f8;
+        color: black !important;
+    }
+
+    .jumbotron {
+        margin-top: -100px;
+    }
+
+    .display-4 {
+        font-size: 13vw;
+        transform: translateY(70%);
+    }
+
+    span {
+        font-size: 0.20em;
+    }
+
+    .logo{
+        font-size: 2.0em;
+    }
+    .mb-2{
+        width: 205px;
+    }
+    .destinasi {
+        margin-left: 150px;
+    }
+    .des {
+        margin-left: 160px;
+    }
+    .winwih, .winwiq, .winwi1, .winwi2, .winwi3, .winwi4, .winwi5, .winwi6, .winwi7, .winwi8 {
+        width: 790px;
+        height: 510px;
+        background: #fff;
+        border-radius: 10px;
+        position: relative;
+        padding: 10px;
+        text-align: center;
+        margin: 10% auto;
+    }
+    
+}

@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Allura|Josefin+Sans');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Lobster+Two&family=Open+Sans:wght@500&family=Outfit:wght@300;500&family=Poppins:ital,wght@0,200;0,300;1,100&family=Rancho&family=Roboto:wght@100&family=Satisfy&family=Viga&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: white;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.judul {
+    font-family: 'Viga', sans-serif !important;
+}
+
+.wrapper{
+  margin-top: 40px;
+}
+
+.wrapper h1{
+  font-family: 'Allura', cursive;
+  font-size: 52px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.team{
+  display: flex;
+  justify-content: center;
+  width: auto;
+  text-align: center;
+  flex-wrap: wrap;
+  margin-top: 90px;
+}
+
+.team .team_member{
+  background: #87CEEB  ;
+  margin: 21px;
+  margin-bottom: 50px;
+  width: 300px;
+  padding: 20px;
+  line-height: 20px;
+  color: white;  
+  position: relative;
+}
+
+.team .team_member h3{
+  color: white;
+  font-size: 26px;
+  margin-top: 50px;
+}
+
+.team .team_member p.role{
+  color: white;
+  margin: 12px 0;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.team .team_member .team_img{
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 115px;
+  height: 115px;
+  border-radius: 50%;
+  background: #fff;
+}
+
+.team .team_member .team_img img{
+  width: 115px;
+  height: 115px;
+  padding: 5px;
+}
